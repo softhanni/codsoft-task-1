@@ -1,0 +1,223 @@
+@media only screen and (max-width: 600px) {
+
+   * {
+      margin: 0;
+      padding: 0;
+
+   }
+
+   header .navbar {
+      display: none;
+   }
+
+
+   .logo {
+      position: relative;
+      right: 85px;
+
+   }
+
+   .introduction h2 {
+      display: none;
+   }
+
+
+   .intro .introduction p {
+      display: none;
+   }
+
+   .intro .profile img {
+      border-radius: 10%;
+   }
+
+   .socialLinks {
+      position: relative;
+      top: 370px;
+      left: 185px;
+   }
+
+   .intro .profile {
+      position: relative;
+      right: 92px;
+      bottom: 65px;
+   }
+
+   .intro .introduction .buttons {
+      position: relative;
+      left: 120px;
+      top: 360px;
+   }
+
+   .exp {
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      margin-top: -70px;
+      margin-left: auto;
+   }
+
+   .exp .Skills {
+      width: 90%;
+
+   }
+
+   .headingSkill {
+      position: relative;
+      left: 35px;
+      top: 20px;
+   }
+
+   .services {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      width: 100%;
+   }
+
+   .services {
+      background-image: none;
+      /* background-color: aqua; */
+
+   }
+
+   .services .service {
+      margin-left: 50px;
+      height: auto;
+   }
+
+   .service .serviceP {
+      width: 70%;
+      text-align: justify;
+      text-justify: inter-word;
+
+   }
+
+   .service .serviceP {
+      text-align: center
+   }
+
+   .serh1 {
+      margin-top: 10px;
+      margin-left: 0;
+   }
+
+
+   .projects {
+      margin: 0;
+      width: 90%;
+   }
+
+   .animationx {
+      display: flex;
+      flex-direction: column;
+
+   }
+
+   .headingPro h1 {
+      padding: 40px;
+      margin-top: 50px;
+
+   }
+
+   .details {
+      /* display: flex; */
+      flex-direction: column;
+      /* background-color: aqua; */
+      margin: 0;
+   }
+
+   .contactme .section {
+      height: 75%;
+      margin-top: 50px;
+   }
+
+
+   .contactme {
+      height: 900px;
+   }
+
+   .details .detail {
+      /* background-color: red; */
+      width: 15em;
+      padding-top: 15px;
+   }
+
+
+   .section a {
+      position: relative;
+      left: 30px;
+   }
+
+   .section .des {
+      /* background-color: aqua; */
+      position: relative;
+      left: 30px;
+      text-align: start;
+
+   }
+
+   .copyrights p {
+      font-size: .8em;
+
+   }
+
+
+   .headingcontact {
+      position: relative;
+      left: 35px;
+      top: 30px;
+      /* background-color: aqua; */
+      width: 250px;
+
+   }
+
+
+
+
+   header .mor {
+      display: block;
+
+   }
+
+   .mor .dropd {
+      /* background-color: aqua; */
+      height: auto;
+      z-index: 3;
+      display: none;
+      position: relative;
+      top: -32px;
+   }
+
+
+
+
+
+   footer .movetop {
+      position: relative;
+      left: 0px;
+      top: 100px;
+   }
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+   header {
+      display: none;
+   }
+
+   body .mor {
+      display: block;
+   }
+
+   body {
+      overflow-x: hidden;
+
+   }
+}

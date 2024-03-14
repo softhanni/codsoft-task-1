@@ -1,0 +1,126 @@
+@media only screen and (max-width: 600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header .navbar, .introduction h2, .intro .introduction p {
+        display: none;
+    }
+
+    .logo {
+        position: relative;
+        right: 85px;
+    }
+
+    .intro .profile img {
+        border-radius: 10%;
+    }
+
+    .socialLinks {
+        position: absolute;
+        top: 370px;
+        left: 185px;
+    }
+
+    .intro .profile {
+        position: absolute;
+        right: 92px;
+        bottom: 65px;
+    }
+
+    .intro .introduction .buttons {
+        position: absolute;
+        left: 120px;
+        top: 360px;
+    }
+
+    .exp {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-top: -70px;
+        margin-left: auto;
+    }
+
+    .exp .Skills {
+        width: 90%;
+    }
+
+    .headingSkill {
+        position: relative;
+        left: 35px;
+        top: 20px;
+    }
+
+    .services, .projects, .animationx, .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .services .service, .service .serviceP, .serh1 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .headingPro h1 {
+        padding: 40px;
+        margin-top: 50px;
+    }
+
+    .contactme .section {
+        height: 75%;
+        margin-top: 50px;
+    }
+
+    .contactme {
+        height: 900px;
+    }
+
+    .details .detail {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .section a, .section .des {
+        position: relative;
+        left: 30px;
+        text-align: start;
+    }
+
+    .copyrights p {
+        font-size: .8em;
+    }
+
+    .headingcontact {
+        position: relative;
+        left: 35px;
+        top: 30px;
+        width: 250px;
+    }
+
+    header .mor {
+        display: block;
+    }
+
+    .mor .dropd {
+        display: none;
+        position: absolute;
+        top: -32px;
+        z-index: 3;
+    }
+
+    footer .movetop {
+        position: relative;
+        left: 50px;
+        top: 100px;
+    }
+
+    .nav .showmore {
+        display: block;
+    }
+}

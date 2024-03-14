@@ -1,0 +1,32 @@
+.btn{
+    background-color: rgba(8, 4, 221, 0.822);
+    width: 465px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 130px;
+    padding: 0px;
+    
+}
+
+.btns{
+    background-color: rgba(8, 4, 221, 0.281);
+    height: 70px;
+    width: 230px;
+    font-size: 45px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.chosed{
+    background-color: rgb(12, 166, 255);
+    height: 70px;
+    width: 230px;
+    font-size: 45px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 1s;
+}

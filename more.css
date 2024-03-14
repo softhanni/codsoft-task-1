@@ -1,0 +1,75 @@
+.mor {
+    /* position: absolute; */
+
+    /* background-color: red; */
+    width: 100%;
+    height: 40px;
+
+    display: none;
+}
+
+.mq {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mor ul {
+    background-color: rgb(1, 41, 41);
+    padding: 10px;
+    position: absolute;
+    left: 26px;
+    border-radius: 5px;
+    list-style: none;
+    float: left;
+    top: 33px;
+    width: 350px;
+    height: 500px;
+}
+
+
+
+.mor ul li {
+    font-size: 1.5em;
+    padding: 5px;
+
+}
+
+
+
+.mor ul a {
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    line-height: 32px;
+    padding: 0 15px;
+    display: block;
+    position: relative;
+    top: 20px;
+    font-size: 60px;
+    padding: 30px;
+}
+
+.mor ul li:hover {
+    background-color: rgba(243, 66, 66, 0.384);
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.closemore {
+    color: white;
+    z-index: 10;
+    position: relative;
+    right: 55px;
+    top: 40px;
+    font-size: 33px;
+    border-radius: 50px;
+    float: right;
+
+}
+
+.mq .showmore {
+    font-size: 2em;
+    /* background-color: aqua; */
+}

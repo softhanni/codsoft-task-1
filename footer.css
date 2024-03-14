@@ -1,0 +1,208 @@
+
+
+.contactme {
+    background-color: rgb(1, 48, 48);
+    width: 100%;
+    min-height: 620px;
+    margin-top: 100px;
+}
+
+.section {
+    background-color: rgb(65, 64, 64);
+    width: 85%;
+    height: 300px;
+    margin: 200px auto;
+
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5x);
+    transform: scale(.8);
+}
+
+
+.showsec{
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+}
+
+
+
+
+.headingcontact {
+    position: relative;
+    top: 150px;
+    left: 100px;
+    font-size: 3em;
+    color: white;
+    font-family: gadugi;
+    /* background-color: aqua; */
+
+}
+
+.details {
+    /* background-color: rgb(71, 104, 104); */
+    position: relative;
+    top: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.circle {
+    background-color: rgb(24, 250, 3);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.detail h3 {
+    font-size: 1.7em;
+    font-family: gadugi;
+    color: white;
+    letter-spacing: 3px;
+    /* padding: 5px; */
+}
+
+.detail .home {
+    font-size: 1.2em;
+    font-family: gadugi;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.section a {
+    font-size: 1.3em;
+    position: relative;
+    top: 50px;
+    left: 55px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.section .des {
+    font-size: 1.1em;
+    position: relative;
+    top: 60px;
+    left: 55px;
+    font-family: gadugi;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.slinks {
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+
+}
+
+.slinks .ws {
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.slinks .ws:hover {
+    background-color: aliceblue;
+    transition: 1s;
+}
+
+.slinks .icon {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.slinks .github {
+    color: rgb(36, 41, 46);
+}
+
+.slinks .linkedin {
+    color: rgb(10, 102, 194);
+}
+
+.slinks .facebook {
+    color: rgb(66, 103, 178);
+}
+
+.add {
+    background-color: rgb(255, 0, 191);
+}
+
+.em {
+    background-color: rgb(0, 255, 234);
+}
+
+.num {
+    background-color: rgb(251, 255, 0);
+}
+
+.li {
+    background-color: rgb(0, 102, 255);
+}
+
+
+
+
+footer{
+    background-color: rgb(100, 5, 5);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.copyrights{
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+
+.line{
+    background-color: rgb(154, 173, 235);
+    width: 100%;
+    height: 1px;
+}
+
+.copyrights h1{
+    font-size: 3.2em;
+    letter-spacing: 4px;
+    font-family: Stencil ;
+}
+.copyrights p{
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-family: gadugi ;
+    color: white;
+}
+
+.copyrights span{
+    /* color: rgb(225, 225, 247); */
+    cursor: pointer;
+    font-family:gadugi ;
+}
+
+.movetop{
+    font-size: 2em;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    background-color: rgb(54, 1, 30);
+    position: relative;
+    left: 280px;
+    top: 90px;
+}
+
+.movetop:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}

@@ -1,0 +1,543 @@
+.edu {
+    display: none;
+}
+
+.showEdu {
+    display: block;
+}
+
+.education {
+    /* background-color: rgb(235, 19, 19); */
+    width: 45%;
+    height: 400px;
+    margin-left: 130px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+
+.education .uni {
+    width: 600px;
+    margin: auto;
+}
+
+.education h2 {
+    font-size: 25px;
+    padding: 5px;
+    font-family: gadugi;
+}
+
+.education h3 {
+    color: rgba(0, 0, 255, 0.534);
+    font-size: 20px;
+    padding: 5px;
+    font-family: gadugi;
+
+}
+
+.education p {
+    font-size: 22px;
+    padding: 5px;
+    font-family: gadugi;
+
+}
+
+.education .college {
+    width: 600px;
+    margin: 10px auto;
+
+}
+
+.education .school {
+    width: 600px;
+    margin: 10px auto;
+}
+
+.image {
+    float: right;
+    margin-right: 190px;
+
+}
+
+.image img {
+    width: 350px;
+}
+
+
+
+
+
+.exp {
+    width: 80%;
+    height: auto;
+    /* background-color: aqua; */
+    margin-top: -60px;
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 100px;
+    /* background-color: rgb(180, 241, 11); */
+    background: rgb(34, 45, 195);
+    background: linear-gradient(0deg, rgba(34, 45, 195, 1) 0%, rgba(189, 83, 83, 1) 50%, rgba(255, 209, 0, 1) 100%);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    font-family: gadugi;
+
+}
+
+.animation {
+    opacity: 0;
+    transition: all 1.5s;
+    filter: blur(5x);
+    transform: translateY(20%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.headingSkill {
+    position: relative;
+    top: 35px;
+    left: 200px;
+    /* padding: 25px; */
+    font-size: 50px;
+    color: rgb(5, 97, 89);
+    font-family: gadugi;
+    z-index: 2;
+}
+
+.exp h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    color: rgb(228, 233, 238);
+    font-size: 25px;
+    /* padding: 5px; */
+    margin-left: 25px;
+
+}
+
+.progress {
+    background: rgba(0, 0, 0, 0.493);
+    min-width: 30vw;
+    height: 10px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.progress .skill {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    position: relative;
+    right: 20px;
+    /* background: green; */
+}
+
+
+
+.progress .skill span {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: black;
+    float: right;
+    margin-top: -12px;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.html {
+    background: rgb(34, 34, 248);
+    animation: html 1s linear forwards;
+}
+
+.css {
+    background: rgb(255, 238, 0);
+    animation: css 1s linear forwards;
+}
+
+.javascript {
+    background: rgb(0, 139, 120);
+    animation: javascript 1s linear forwards;
+}
+
+.react {
+    background: rgb(202, 61, 5);
+    animation: react 1s linear forwards;
+}
+
+.php {
+    background: rgb(5, 189, 202);
+    animation: php 1s linear forwards;
+}
+
+
+
+@keyframes html {
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes javascript {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes react {
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes php {
+    100% {
+        width: 60%;
+    }
+}
+
+/* skills ended */
+
+.services {
+    /* background-color: aqua; */
+    /* width: 100%; */
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: center; */
+
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: gadugi;
+
+
+}
+
+
+
+.service {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5x);
+    transform: scaleY(.8);
+}
+
+.shows {
+    opacity: 1;
+    filter: blur(0);
+    transform: scaleY(1);
+}
+
+.service:nth-child(1) {
+    transition-delay: 200ms;
+}
+
+.service:nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.service:nth-child(3) {
+    transition-delay: 600ms;
+}
+
+.service:nth-child(4) {
+    transition-delay: 800ms;
+}
+
+.service:nth-child(5) {
+    transition-delay: 1000ms;
+}
+
+.service:nth-child(6) {
+    transition-delay: 1200s;
+}
+
+
+
+
+
+
+.Skills {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5x);
+    transform: scaleY(.8);
+}
+
+.skani {
+    opacity: 1;
+    filter: blur(0);
+    transform: scaleY(1);
+}
+
+.Skills:nth-child(1) {
+    transition-delay: 200ms;
+}
+
+.Skills:nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.Skills:nth-child(3) {
+    transition-delay: 600ms;
+}
+
+.Skills:nth-child(4) {
+    transition-delay: 800ms;
+}
+
+.Skills:nth-child(5) {
+    transition-delay: 1000ms;
+}
+
+.Skills:nth-child(6) {
+    transition-delay: 1200ms;
+}
+
+
+
+
+
+.serh1 {
+    /* position: relative; */
+    margin-top: 80px;
+    margin-left: 135px;
+    padding: 25px;
+    font-size: 50px;
+    color: rgb(54, 1, 43);
+    font-family: gadugi;
+
+}
+
+.services .service {
+    width: 450px;
+    height: 250px;
+    /* background-color: rgb(240, 12, 12); */
+    margin-left: 130px;
+    /* margin-top: 25px; */
+}
+
+.serviceicon {
+    /* background-color: rgb(208, 255, 0); */
+    display: flex;
+    align-items: center;
+
+}
+
+.serviceicon span {
+    font-size: 2em;
+    padding: 10px;
+}
+
+.services .service .serviceHeading {
+    /* padding: .4em; */
+    font-size: 1.8em;
+}
+
+
+.services .service .serviceP {
+    font-size: 1.7em;
+    font-family: gadugi;
+    /* background-color: red; */
+
+}
+
+
+
+/* services ended */
+
+
+.projects {
+    /* background-color: aqua; */
+    width: 85%;
+    margin-left: 110px;
+
+
+
+}
+
+.displaygrid {
+    width: 100%;
+    /* height: auto; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.project {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5x);
+    transform: scale(.8);
+}
+
+.showx {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+}
+
+.project:nth-child(1) {
+    transition-delay: 200ms;
+}
+
+.project:nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.project:nth-child(3) {
+    transition-delay: 600ms;
+}
+
+.project:nth-child(4) {
+    transition-delay: 800ms;
+}
+
+.project:nth-child(5) {
+    transition-delay: 1000ms;
+}
+
+.project:nth-child(6) {
+    transition-delay: 1200ms;
+}
+
+.project:nth-child(7) {
+    transition-delay: 1400ms;
+}
+
+
+
+
+
+.headingPro {
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: gadugi;
+}
+
+.headingPro h1 {
+    font-size: 50px;
+    position: relative;
+    top: 25px;
+}
+
+.proname {
+    padding: 10px;
+    font-family: gadugi;
+    color: aliceblue;
+}
+
+.categoryPro {
+    /* background-color: brown; */
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.project {
+    /* background-color: red; */
+    width: 350px;
+    /* height: 350px; */
+    position: relative;
+    top: 30px;
+    padding-top: 40px;
+}
+
+.proImg {
+    /* background-color: rgb(219, 75, 75); */
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+
+.proImg img {
+    width: 355px;
+}
+
+
+
+.project .hover {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(245, 9, 174, 0.8);
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.project:hover .hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+
+.proIcons {
+    /* background-color: rgba(71, 4, 4, 0.788); */
+    display: flex;
+    justify-content: space-around;
+    width: 110px;
+    position: relative;
+    left: 30px;
+    top: 200px;
+
+}
+
+.proIcons a {
+    font-size: 17px;
+    border: 2px solid rgb(251, 255, 0);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    translate: 0 -50px;
+
+}
+
+.proIcons a:hover {
+    background-color: rgb(251, 255, 0);
+    transition: 0.5s;
+
+}
+
+.project:hover .proIcons a {
+    translate: 0 0px;
+    transition: 0.5s;
+}
+
+/* projects end */
